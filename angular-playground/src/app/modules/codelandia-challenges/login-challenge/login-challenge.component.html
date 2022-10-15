@@ -1,0 +1,46 @@
+<div class="wrapper">
+  <div class="space-mobile"></div>
+  <div class="section-container illustration-container">
+    <div class="illustration">
+      <svg-icon
+        src="/assets/img/codelandia/login/persons.svg"
+        [svgStyle]="{ width: '100%' }"
+      ></svg-icon>
+    </div>
+  </div>
+  <div class="section-container login-container">
+    <form class="login-form" >
+      <div class="title">
+        <p>Bem vindo de volta</p>
+        <p class="title-bold">Faça login na sua conta</p>
+      </div>
+      <div class="inputs">
+        <app-text-form-field
+          label="E-mail"
+          placeholder="Digite seu email"
+        ></app-text-form-field>
+        <app-text-form-field
+          label="Senha"
+          placeholder="Digite sua senha"
+        ></app-text-form-field>
+      </div>
+
+      <div class="forgot-password">
+        <div class="remember-me">
+          <label><input type="checkbox">Lembre de mim</label>
+        </div>
+        <a href="www.google.com">Esqueceu sua senha?</a>
+      </div>
+
+      <div class="actions">
+        <button type="button" class="login">Entrar</button>
+        <app-image-button
+          label="Ou faça login com o Google"
+          imgPath="/assets/img/codelandia/login/google-icon.png"
+        ></app-image-button>
+      </div>
+    </form>
+
+    <p class="not-have-account">Não tem uma conta? <a>Cadastre-se</a></p>
+  </div>
+</div>

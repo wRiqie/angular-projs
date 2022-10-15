@@ -1,0 +1,39 @@
+$backgroundColor: #282A37;
+
+$greyText: #89909E;
+$blue: #218BE7;
+
+.blue {
+  color: $blue;
+}
+
+.wrapper {
+  position: relative;
+
+  height: 100vh;
+  width: 100vw;
+
+  background: linear-gradient(90deg, $backgroundColor 40%, rgba(2,0,36,0.31390056022408963) 100%),
+    url('/assets/img/login-background.jpg') no-repeat center center / cover;
+
+  .form {
+    padding: 20px;
+    color: $greyText;
+    font-weight: bold;
+
+    .start-text {
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+
+    .create-text {
+      color: #fff;
+      font-size: 36px;
+    }
+
+    .already-text {
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}

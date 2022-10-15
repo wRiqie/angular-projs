@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+
+  color: #1A202C;
+  font-family: 'Lato';
+
+  input {
+    border: 1px solid #E8E8E8;
+    padding: 12px 15px;
+
+    font-size: clamp(12px, 1vw, 18px);
+  }
+}

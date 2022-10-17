@@ -7,6 +7,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ChihiroChallengeComponent } from './modules/codelandia-challenges/chihiro-challenge/chihiro-challenge.component';
+import { ChihiroChallengeModule } from './modules/codelandia-challenges/chihiro-challenge/chihiro-challenge.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
     AngularSvgIconModule.forRoot(),
     LoginChallengeModule,
     LoginModule,
+    ChihiroChallengeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
